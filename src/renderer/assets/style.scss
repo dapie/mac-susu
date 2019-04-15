@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+$body-color: #fafafa;
+$body-background-color: #191919;
+$family-sans-serif: "Roboto", sans-serif;
+$body-weight: 300;
+
+$input-color: #fafafa;
+$input-focus-border-color: transparent;
+$input-hover-border-color: transparent;
+$input-focus-box-shadow-size: 0 0 0 0;
+$input-focus-box-shadow-color: none;
+
+$button-color: #fafafa;
+$button-hover-color: #fafafa;
+$button-focus-color: #fafafa;
+$button-active-color: #fafafa;
+$button-border-color: transparent;
+$button-hover-border-color: transparent;
+$button-focus-border-color: transparent;
+$button-active-border-color: transparent;
+$button-focus-box-shadow-size: 0 0 6px 1px;
+$button-focus-box-shadow-color: rgba(240, 240, 240, .25);
+
+$notification-padding: none;
+
+.button, .input{
+	border: none !important;
+}
+
+.button.week{
+	border: 1px solid #242424 !important;
+	background: none !important;
+	height: 30px !important;
+}
+
+.button.week.active{
+	background: #242424 !important;
+}
+
+.weekday{
+	font-weight: 400;
+    font-size: 18px !important;
+}
+
+.notification{
+	background: linear-gradient(102deg, #262626 0%, #1A1A1A 100%);
+	border-radius: 0px 0px 6px 6px !important;
+	margin-top: -4px
+}
+
+@import "~bulma/bulma";
